@@ -1,0 +1,8 @@
+--- Common International Greetings/Phrases (add as needed) ---
+    'வணக்கம்', # Tamil
+    'नमस्ते',   # Hindi
+    'hola',     # Spanish
+    'bonjour',  # French
+    'guten tag',# German
+    '你好' 
+    Let's see how this affects your test file:

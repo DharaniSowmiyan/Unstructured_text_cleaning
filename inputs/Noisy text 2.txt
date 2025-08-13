@@ -1,0 +1,21 @@
+<div class="post" id="post-12345">
+    <div class="user-info">
+        <strong>User:</strong> TechGuru25<br>
+        <strong>Posts:</strong> 482 | <strong>Date:</strong> Tue, 12 Aug 2025 11:59:01 +0530
+    </div>
+    <hr>
+    <div class="post-body">
+        <p>This is my review of the new GadgetPro X1. Honestly, it's pretty amazing!!! The battery life is just what they promised. I would recommend it to anyone looking for a solid device.</p>
+        
+        <p>To answer the question about the camera: it's decent for the price. Not professional level, but great for everyday photos. नमस्ते! The camera quality is decent for the price.</p>
+
+        <p>Overall, a great buy. You won’t regret it. ¯\_(ツ)_/¯ </p>
+    </div>
+    <div class="signature">
+        ---<br>
+        John "TechGuru" Doe | My Tech Blog: hxxps://fake-tech-blog.com | "Innovation distinguishes between a leader and a follower."
+    </div>
+    <div class="post-controls">
+        <button>Quote</button> | <button>Report Post</button>
+    </div>
+</div>
