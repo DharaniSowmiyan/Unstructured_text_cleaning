@@ -32,5 +32,6 @@ The script operates through a clear, step-by-step pipeline:
 
 **Recursive Splitting**: Once a clean block of text is obtained (from either path), it's passed to the recursive_character_split() function. This function intelligently breaks the text into smaller chunks of a consistent size, trying to make the splits at natural boundaries like paragraphs or sentences.
 
-Final Filtering & Output: Each of these chunks goes through a final filtering process (_filter_and_clean_chunks()) to remove noise words and ensure it's in English. The resulting clean chunks are then printed to the console and saved to the output file.
+**Final Filtering & Output**: Each of these chunks goes through a final filtering process (_filter_and_clean_chunks()) to remove noise words and ensure it's in English. The resulting clean chunks are then printed to the console and saved to the output file.
+
 
