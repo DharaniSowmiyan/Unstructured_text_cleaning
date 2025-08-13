@@ -17,12 +17,12 @@ For all text, it removes a customizable list of noise keywords, extra whitespace
 
 **File Output**: After processing, it saves the clean, chunked text into a new file named [original_filename]_output.txt for easy access.
 
-# Core Logic Engine ⚙
+# Core Logic Engine 
 The script operates through a clear, step-by-step pipeline:
 
 **File Input & Text Extraction**: The process starts in the main() function, which prompts for a file path. The extract_text_from_file() function is then called to identify the file's extension and use the appropriate library (pdfplumber for PDF, python-docx for Word) to read the document and convert its entire content into a single block of raw text.
 
-**Unified Cleaning **(clean_content): This is the central "engine" of the script. All the raw text is passed to this single, smart function.
+**Unified Cleaning**(clean_content): This is the central "engine" of the script. All the raw text is passed to this single, smart function.
 
 **Pipeline Detection**: The function first performs a quick check on the text to see if it contains common HTML tags (like <div> or <html>).
 
@@ -33,3 +33,4 @@ The script operates through a clear, step-by-step pipeline:
 **Recursive Splitting**: Once a clean block of text is obtained (from either path), it's passed to the recursive_character_split() function. This function intelligently breaks the text into smaller chunks of a consistent size, trying to make the splits at natural boundaries like paragraphs or sentences.
 
 Final Filtering & Output: Each of these chunks goes through a final filtering process (_filter_and_clean_chunks()) to remove noise words and ensure it's in English. The resulting clean chunks are then printed to the console and saved to the output file.
+
